@@ -4,6 +4,14 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family:
+        'Caveat',
+        Helvetica,
+        "Helvetica Neue",
+        "HelveticaNeue-Light",
+        "Helvetica Neue Light",
+        Arial,
+        sans-serif;
 }
 
 #wrapper {
@@ -122,18 +130,27 @@ body {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     float: left;
     width: 180px;
 }
 
-div.gallery:hover {
+/* div.gallery:hover {
     border: 1px solid #777;
-}
+} */
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+div.gallery img:hover{
+    border: 1px solid black;
 }
 
 div.desc {
